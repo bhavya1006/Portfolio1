@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+    <script src="https://kit.fontawesome.com/8d15cf4f06.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <!-- <div class="nav1"> -->
+            <nav>
+                <a href="#"><img src="images/logo1.png" class="logo" alt="logo"></a>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark fas1" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas1" onclick="openmenu()"></i>
+            </nav>
+            <!-- </div> -->
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hey, I am <span class="transition-slider">Bhavya Madan</span><br> from India</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- ---------------about ------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/mypic.jpg" alt="My picture">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>As an AI and machine learning enthusiast, I'm dedicated to unlocking the potential of intelligent
+                        technologies. With a passion for web development and a creative touch in UI design, I craft
+                        digital experiences that blend innovation and aesthetics. Using Canva, I harness the power of
+                        design to elevate user interfaces and deliver memorable online interactions.<br><br>
+                        I am a passionate and creative Web-Enthusiastic with a deep love for Development. I've had the
+                        privilege of making MDLRC website.I thrive on challenges and am constantly seeking new ways to
+                        build projects. Let's connect and create something extraordinary together.
+                    </p>
+
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <!-- <p class="tab-links">Experience</p> -->
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Poster Designing</span><br>With Canva.com </li>
+                            <li><span>Web Development</span><br>With HTML CSS JavaScript</li>
+                            <!-- <li><span></span><br>Building Andriod/iOS apps</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - Present</span><br>BTech in Artificial Intelligence & Machine Learning</li>
+                            <li><span>2022</span><br>CBSE Board 12th [PCM stream]</li>
+                            <li><span>2020</span><br>CBSE Board 10th</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------top slider------- -->
+    <div id="scroll-to-top">
+        <i class="arrow up"></i>
+    </div>
+
+    <!-- --------------------services  -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design is the art of creating and arranging elements on a webpage to deliver a seamless and
+                        visually appealing user experience. It involves the use of graphics, typography, layout, and
+                        user interface design to make websites both functional and aesthetically pleasing. </p>
+                    <a href="https://github.com/bhavya1006/Web-Development" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI Design</h2>
+                    <p>UI design with Canva is a breeze. Create stunning, user-friendly interfaces with ease using
+                        Canva's intuitive tools, templates, and customization options. Elevate your design game
+                        effortlessly.
+                    </p>
+                    <a href="https://www.canva.com/design/DAFc4Hm4lTI/vM5ep5fETz1dBiXF-grJTA/edit?utm_content=DAFc4Hm4lTI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                        target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Machine Learning</h2>
+                    <p>
+                        Machine learning is a subset of artificial intelligence that enables computers to learn from
+                        data and improve their performance on tasks without explicit programming. It's revolutionizing
+                        industries with data-driven insights and automation..</p>
+                    <a href="https://github.com/bhavya1006/Machine-Learning" target="_blank">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------portfolio------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.png" alt="">
+                    <div class="layer">
+                        <h3>Web Development</h3>
+                        <p>In this project, created a responsive website with basic HTML, CSS and JavaScript.</p>
+                        <a href="https://bhavya1006.github.io/MDLRC_WebSite/#service" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.png" alt="">
+                    <div class="layer">
+                        <h3>Poster Designing</h3>
+                        <p>Designed a poster for a Hackathon by GeeksforGeeks Student Chapter at MITS</p>
+                        <a href="https://www.canva.com/design/DAFyYq1q0wY/o7rHZ3yPwkKSmyqaQ31TRQ/edit?utm_content=DAFyYq1q0wY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                            target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/googlecloud.png" alt="">
+                    <div class="layer">
+                        <h3>Google Jam</h3>
+                        <p>I have completed the Google Jam and earned badges for same</p>
+                        <a href="https://www.cloudskillsboost.google/public_profiles/2348bc58-bff3-4c0c-ab63-6fb62412b93b"
+                            target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <a href="#" class="btn">See more</a> -->
+        </div>
+    </div>
+    <br><br>
+    <hr>
+    <br><br>
+    <!-- --------------------contact----- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> bindubhdh@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 9407275695</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/bhavya-madan-05324a264/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/bhavya1006" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://twitter.com/BhavyaMadan20" target="_blank"><i
+                                class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://instagram.com/bhavy.madan?igshid=YTQwZjQ0NmI0OA==" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <dic class="copyright">
+            <p>Copyright © Bhavya <i class="fa-regular fa-heart"></i></p>
+        </dic>
+    </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+
+
+
+
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzaqHBUkBWi_XLYZgexrA5BdRRQh81q8VvYoxVrDg0IgeBqrOVwHpTHIsqhUHRTu-qy/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+
+        document.getElementById("scroll-to-top").addEventListener("click", function () {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+
+</body>
+
+</html>
