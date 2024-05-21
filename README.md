@@ -1,5 +1,5 @@
 # Portfolio1
-My personal portfolio project is uploaded via GitHub pages and can be accessed on this [Portfolio Link](https://bhavya1006.github.io/My-Portfolio1/). 
+My personal portfolio project is uploaded via GitHub pages and can be accessed on this [Portfolio Link](https://bhavya1006.github.io/Portfolio1/). 
 
 The tech skills on this page are completed in HTML, CSS and Javascript using some extracted CSS Components from [Uiverse.io](https://uiverse.io/).
 
