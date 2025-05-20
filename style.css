@@ -75,7 +75,7 @@ nav ul li a:hover::after{
 
 .header-text{
     margin-top:  4%;
-    margin-left: 55%;
+    margin-left: 45%;
     font-size: 2em;
 
 }
@@ -349,6 +349,51 @@ nav .fas1{
 }
 
 @media only screen and (max-width: 600px){
+    .header{
+        background-image: url(images/phone-background1.png);
+    }
+    .header-text{
+        margin-top: 19%;
+        font-size: 1.2rem;
+        margin-left: 20%;
+    }
+    .header-text h1{
+        font-size: 1.7rem;
+    }
+    .header-text h1 span{
+        font-size: 1.8rem;
+    }
+    nav .fas1{
+        display: block;
+        font-size: 25px;
+        color: #fff;
+    }
+    nav ul{
+        background: #4193fe;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fas1{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+}
+
+
+@media only screen and (max-width: 320px){
     .header{
         background-image: url(images/phone-background1.png);
     }
